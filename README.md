@@ -1,54 +1,47 @@
-# React + TypeScript + Vite
+# Hacker Academy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Hacker Terminal UI](screenshot.png)
 
-Currently, two official plugins are available:
+A cybersecurity learning platform with immersive terminal-style UI for ethical hacking resources, tutorials, and tools.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Immersive Terminal Interface** - Authentic hacker-themed UI with:
+  - Animated typing effects
+  - Blinking cursor
+  - Binary code background
+  - Command-line style navigation
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Comprehensive Resources**:
+  - Video tutorials
+  - Free hacking books
+  - Online cybersecurity labs
+  - Essential hacking tools
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Interactive Components**:
+  - Animated card hover effects
+  - Terminal-style command previews
+  - Responsive grid layouts
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Technologies Used
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **Frontend**:
+  - React.js with TypeScript
+  - Framer Motion for animations
+  - React Icons
+  - Tailwind CSS for styling
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- **UI Concepts**:
+  - Cyberpunk aesthetic
+  - Terminal/CLI interface patterns
+  - Responsive design
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/hacker-academy.git
+
+cd hacker-academy
+npm install
+npm run dev
