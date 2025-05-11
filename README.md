@@ -40,7 +40,7 @@ A cybersecurity learning platform with immersive terminal-style UI for ethical h
 
 1. Clone the repository:
 ```bash
-[git clone https://github.com/yourusername/hacker-academy.git](https://github.com/naninaeto/hackingfontend.git)
+[[git clone https://github.com/yourusername/hacker-academy.git](https://github.com/naninaeto/hackingfontend.git)](https://github.com/naninaeto/hackingfontend.git)
 
 cd hacker-academy
 npm install
